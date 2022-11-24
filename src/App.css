@@ -1,0 +1,67 @@
+html{
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+a{
+  text-decoration: none !important ;
+}
+.home {
+  border-bottom: 2px solid #18d26e !important;
+}
+.navin{
+  position: relative !important;
+  
+}
+.const{
+justify-content: center;
+}
+.aicon{
+  font-size: 20px !important;
+}
+.resume{
+  width: 100%;
+}
+.navHome{
+  visibility: hidden !important;
+}
+.me{
+  height: 100% !important;
+}
+@media (max-width: 992px) {
+  
+  .nav-item{
+    margin-bottom: 12px !important;
+    
+  }
+  .navmain{
+    visibility: hidden !important;
+  }
+  .resume{
+    width: 350px !important;
+  }
+  .nav-link{
+    color: aliceblue !important;
+    
+  }
+   #navbarHome{
+    visibility: hidden;
+  }
+  .navHome{
+    list-style-type: none;
+    visibility: visible !important;
+  }
+  .list-group{
+    position: relative !important;
+    left: 35% !important;
+  }
+  section{
+    position: relative !important;
+  }
+  .sd{
+    margin-left: 30px !important;
+  }
+  .skill-text{
+    visibility:hidden !important;
+  }
+}
